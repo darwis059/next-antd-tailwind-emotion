@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+@tailwind utilities;
+
+.title {
+  color: #333;
+  line-height: 1.15;
+}
