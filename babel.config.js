@@ -5,7 +5,8 @@
 module.exports = {
   presets: ['next/babel'],
   plugins: [
-    // ['macros'],
+    '@emotion/babel-plugin',
+    'macros',
     [
       'import',
       {

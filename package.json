@@ -4,13 +4,13 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build:base-css": "tailwindcss build ./styles/tailwind.base.css -o ./styles/base.css"
   },
   "dependencies": {
     "@emotion/cache": "11.0.0-next.12",
     "@emotion/css": "11.0.0-next.12",
     "@emotion/react": "11.0.0-next.12",
-    "@emotion/server": "11.0.0-next.12",
     "@emotion/styled": "11.0.0-next.12",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-less": "^1.0.1",
@@ -24,6 +24,13 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@emotion/babel-plugin": "^11.0.0-next.12",
+    "@emotion/server": "11.0.0-next.12",
+    "@tailwindcss/ui": "^0.3.0",
+    "@tailwindcssinjs/macro": "^0.3.1",
+    "tailwind.macro": "^1.0.0-alpha.2",
+    "babel-plugin-macros": "^2.8.0",
     "postcss-preset-env": "^6.7.0",
     "tailwindcss": "^1.4.6"
   },

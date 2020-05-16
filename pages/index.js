@@ -9,7 +9,14 @@ import {
 } from 'antd'
 import styled from '@emotion/styled'
 import { css } from '@emotion/react'
+import tw from 'tailwind.macro';
+// import tw from '@tailwindcssinjs/macro';
 
+// import styled from '@emotion/styled';
+
+const TwButton = styled('div')`
+  ${tw`hover:shadow-neumorphism-blue`};
+`
 const basicStyles = css`
   background-color: red;
   color: cornflowerblue;
@@ -94,5 +101,6 @@ export default () => (
       <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
   Button
 </button>
+  <TwButton>TwButton</TwButton>
   </div>
 )
