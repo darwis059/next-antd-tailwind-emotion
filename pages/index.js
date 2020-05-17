@@ -18,7 +18,6 @@ const TwButton = styled('div')`
   ${tw`hover:shadow-neumorphism-blue`};
 `
 const basicStyles = css`
-  background-color: red;
   color: cornflowerblue;
   border: 1px solid lightgreen;
   border-right: none;
@@ -94,7 +93,7 @@ export default () => (
         </Button>
       </FormItem>
     </Form>
-    <Basic>Basic</Basic>
+    <Basic>Emotion</Basic>
     <div className="hero">
         <h1 className="title">Next.js + Tailwind CSS</h1>
       </div>

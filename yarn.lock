@@ -1154,40 +1154,41 @@
     hex-rgb "^4.1.0"
     postcss-selector-parser "^6.0.2"
 
-"@tailwindcssinjs/class-composer@0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.3.1.tgz#7ebbeba7b7a482c6c127fa40879eb87fc1ab5b1b"
-  integrity sha512-V8A8qop5kdluCTetAwmU4R6WopnXJZmT5SQHj80nX8mOzvRUgnq4ChJDSD59SbK7Vr4oFh+FGMD/G6VoyN1nHw==
+"@tailwindcssinjs/class-composer@0.5.1":
+  version "0.5.1"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/class-composer/-/class-composer-0.5.1.tgz#3913720037b2f3d5e09d9faef65a73399c248c73"
+  integrity sha512-1v+9XsaxXy/Rv9Xk6wSKX2cvraDPN7beF4PASbI6IHrkncLopLwoWikelnTfMbptJd6Vd8caE8l6bOGR/yrcOQ==
   dependencies:
     core-js "^3.6.5"
-    lodash "^4.17.15"
 
-"@tailwindcssinjs/macro@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.3.1.tgz#d7430558d7accb395c03e8e930cbfe4eaf238044"
-  integrity sha512-s3B4IlzyreAG3cd1M/pe8DDl9TwYnKy8ckbdubZc61dB+kOiJ9ZBhBhU+0P68D/KXuurx3dna+eOayFzFwTIsw==
+"@tailwindcssinjs/macro@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/macro/-/macro-0.7.0.tgz#eab37285509a6b7c550de0371509af7db2ce570b"
+  integrity sha512-+ga69iuLwdudzE1Ljb5gIuS3zvEUdFH1+oX276s/fonpcRw9XWefX7GMtixbhb/6ykK13O01hIOPdHu+JhW5rw==
   dependencies:
-    "@tailwindcssinjs/class-composer" "0.3.1"
-    "@tailwindcssinjs/tailwindcss-data" "0.3.0"
-    "@tailwindcssinjs/transformers" "0.3.0"
+    "@tailwindcssinjs/class-composer" "0.5.1"
+    "@tailwindcssinjs/tailwindcss-data" "0.7.0"
+    "@tailwindcssinjs/transformers" "0.7.0"
     babel-plugin-macros "^2.8.0"
+    lodash "^4.17.15"
+    postcss-js "^2.0.3"
 
-"@tailwindcssinjs/tailwindcss-data@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.3.0.tgz#a41dcc08e8c90769b9dfc6148764b19b2afebd7a"
-  integrity sha512-KZ95msNPRGjWbdN7IOEHDrMgix+tU9XHyVlDBOfTPu2bJWiybiVHau3xdKc+4K0S5zuMe2zcnJ0psHbVYhp2kw==
+"@tailwindcssinjs/tailwindcss-data@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/tailwindcss-data/-/tailwindcss-data-0.7.0.tgz#1dd82449febe893fab4f5befff3a2967b7323250"
+  integrity sha512-CSBkrbcO2SKDxc1CWyLUHZpw3q0EyIOFtyepbjGekzSKHe+y9biuIuZi8t6mwbwP5J8f6Sp3tYsoUu9Y8eJt3Q==
   dependencies:
     core-js "^3.6.5"
-    import-fresh "^3.2.1"
-    postcss "^7.0.27"
+    postcss "^7.0.30"
 
-"@tailwindcssinjs/transformers@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/transformers/-/transformers-0.3.0.tgz#651ceaa2f117cd70be94c9744f32914586189f11"
-  integrity sha512-RDQHqpRD0jD4X0XIYaqwnFk4h1XyuGFPmLUdCYDuhsejM/u/BV6yzHzqFHi6T7Hsm61N05yCm/fRIAiJsRGapw==
+"@tailwindcssinjs/transformers@0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcssinjs/transformers/-/transformers-0.7.0.tgz#7b115662494c301d8d64803b3df9f42528fa8aca"
+  integrity sha512-BkZmU6lGPKeyCtcnOIsZ3PjR9ucipnsZSKGtSeRtirvj/kuAsOi7AdS+VQvezO8ogRpEenMvRxlRDy8BSsRoLA==
   dependencies:
     css-what "^3.2.1"
     lodash "^4.17.15"
+    postcss "^7.0.30"
     postcss-js "^2.0.3"
     timsort "^0.3.0"
 
@@ -3618,7 +3619,7 @@ import-fresh@^2.0.0:
     caller-path "^2.0.0"
     resolve-from "^3.0.0"
 
-import-fresh@^3.1.0, import-fresh@^3.2.1:
+import-fresh@^3.1.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.2.1.tgz#633ff618506e793af5ac91bf48b72677e15cbe66"
   integrity sha512-6e1q1cnWP2RXD9/keSkxHScg508CdXqXWgWBaETNhyuBFz+kUZlKboh+ISK+bU++DmbHimVBrOz/zzPe0sZ3sQ==
@@ -5713,7 +5714,7 @@ postcss@^6.0.1, postcss@^6.0.23, postcss@^6.0.9:
     source-map "^0.6.1"
     supports-color "^5.4.0"
 
-postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.5, postcss@^7.0.6:
+postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.14, postcss@^7.0.16, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.30, postcss@^7.0.5, postcss@^7.0.6:
   version "7.0.30"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.30.tgz#cc9378beffe46a02cbc4506a0477d05fcea9a8e2"
   integrity sha512-nu/0m+NtIzoubO+xdAlwZl/u5S5vi/y6BCsoL8D+8IxsD3XvBS8X4YEADNIVXKVuQvduiucnRv+vPIqj56EGMQ==
